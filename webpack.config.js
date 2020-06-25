@@ -52,7 +52,7 @@ module.exports = {
 },
   plugins: [
     new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: ['./js/*', './css/*']
+      cleanOnceBeforeBuildPatterns: development ? ['no-such-dir'] : ['./js/*', './css/*']
     }),
     new HtmlWebpackPlugin({ // generate HTML file, auto injects generated bundles 
       template: './src/index.html',
