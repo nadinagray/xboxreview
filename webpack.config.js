@@ -51,7 +51,9 @@ module.exports = {
     ]
 },
   plugins: [
-    // new CleanWebpackPlugin(), // only files generated from the build, no more old files, look at adding in prod? only for certain directories?
+    new CleanWebpackPlugin({
+      cleanOnceBeforeBuildPatterns: ['./js/*', './css/*']
+    }),
     new HtmlWebpackPlugin({ // generate HTML file, auto injects generated bundles 
       template: './src/index.html',
       inject: false // inject all assets into the given template or template content

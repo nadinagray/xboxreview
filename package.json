@@ -13,7 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "gsap": "^2.0.2",
-    "lodash": "^4.17.15"
+    "three": "^0.118.1"
   },
   "devDependencies": {
     "@babel/core": "^7.2.2",
@@ -42,7 +42,6 @@
     "raw-loader": "^4.0.1",
     "sass-loader": "^7.1.0",
     "style-loader": "^1.2.1",
-    "three": "^0.101.1",
     "three-addons": "^1.2.0",
     "three-bmfont-text": "^2.3.0",
     "three-svg-loader": "^0.1.0",
