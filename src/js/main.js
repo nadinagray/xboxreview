@@ -1,10 +1,5 @@
-// KEEP
+import '../scss/style.scss'
+import DoubleHelixTimeline from './components/DoubleHelixTimeline';
 
-function component() {
-  const element = document.createElement('div');
-
-
-  return element;
-}
-
-document.body.appendChild(component());
+const timeline = new DoubleHelixTimeline()
+window.timeline = timeline;

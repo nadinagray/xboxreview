@@ -5,8 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "NODE_ENV=production BABEL_ENV=production webpack --config webpack.config.js",
-    "dev": "webpack-dev-server --watch --progress --colors --mode development",
+    "build": "NODE_ENV=production BABEL_ENV=production webpack -p",
+    "dev": "webpack-dev-server --watch --mode development",
     "start": "webpack && yarn dev"
   },
   "author": "",
@@ -30,7 +30,6 @@
     "browser-sync": "^2.18.8",
     "browser-sync-webpack-plugin": "^2.2.2",
     "clean-webpack-plugin": "^3.0.0",
-    "critters-webpack-plugin": "^2.2.0",
     "css-loader": "^2.1.0",
     "glslify-loader": "^1.0.2",
     "html-webpack-plugin": "^4.3.0",
@@ -47,7 +46,6 @@
     "three-svg-loader": "^0.1.0",
     "three.meshline": "^1.2.0",
     "tinygesture": "^1.1.4",
-    "uglifyjs-webpack-plugin": "^2.1.1",
     "url-loader": "^4.1.0",
     "webpack": "^4.29.3",
     "webpack-cli": "^3.2.3",

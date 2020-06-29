@@ -39,7 +39,8 @@ module.exports = {
       {
         test: /\.(sa|sc|c)ss$/,
         use: [
-          development ? 'style-loader' : MiniCssExtractPlugin.loader,
+          // development ? 'style-loader' : MiniCssExtractPlugin.loader,
+          'style-loader',
           'css-loader',
           'sass-loader',
         ],
@@ -51,9 +52,9 @@ module.exports = {
     ]
 },
   plugins: [
-    new CleanWebpackPlugin({
-      cleanOnceBeforeBuildPatterns: development ? ['no-such-dir'] : ['./js/*', './css/*']
-    }),
+    // new CleanWebpackPlugin({
+    //   cleanOnceBeforeBuildPatterns: ['./js', './css']
+    // }),
     new HtmlWebpackPlugin({ // generate HTML file, auto injects generated bundles 
       template: './src/index.html',
       inject: false // inject all assets into the given template or template content

@@ -17,9 +17,10 @@
     <meta name="twitter:site" content="@halo">
     <meta name="twitter:image:src" content="https://AZUREENDPOINT.com/images/social-image.jpg">
 
+
     <meta property="og:title" content="Halo Infinite - DNA of a Hero">
     <meta property="og:description" content="Explore, discover, and share Halo history and heroism with the journey of Master Chief.">
-    <meta property="og:image" content="https://AZUREENDPOINT.com/images/social-image.jpg">>
+    <meta property="og:image" content="https://AZUREENDPOINT.com/images/social-image.jpg">
     <meta property="og:site_name" content="Halo Infinite - DNA of a Hero">
     <meta property="og:url" content="https://AZUREENDPOINT.com/">
     <meta property="og:type" content="website">
@@ -42,9 +43,31 @@
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <meta name="theme-color" content="#000A1D">
 
+  <script>
+    var startTime = new Date()
+  </script>
+  <% for (var css in htmlWebpackPlugin.files.css) { %>
+    <link href="<%= htmlWebpackPlugin.files.css[css] %>" rel="stylesheet">
+  <% } %>
 
-    </head>
+  </head>
   <body>
-    <script src="main.js"></script>
+  	<main>
+
+		<a href="http://dnaofahero.com" class="logo cursor-eye" target="_blank" rel="noopener" tabindex="0">
+			<svg xmlns="http://www.w3.org/2000/svg" data-name="Layer 1" viewBox="0 0 576 162.03" role="img">
+			<title>Master Chief John 117</title>
+				<defs/>
+				<path fill="none" stroke="#2d89b4" stroke-miterlimit="10" stroke-width="2" d="M0 1l574.76.02M1 160l521.76 1.03M1 158.5V1.5M522.76 161.02l51.87-66.13M575 95V1.5"/>
+				<path fill="#9ddcf9" d="M23.39 36.84h13.85l10.45 19.05 10.4-19.05h13.76v28.68h-8.51l.42-22.14-12.72 22.14h-7L31.56 43.38l.26 22.14h-8.43zM97.76 36.84h11.7l15.71 28.68h-9.54l-2.87-5.11H94.3l-2.75 5.11h-9.89zm12 17.59l-6.21-11.41-6.11 11.44zM142.24 56.37c.09 2 .31 2.45 1.34 2.83a25.76 25.76 0 005.85.43c10.1 0 11.3-.3 11.3-2.66a2.26 2.26 0 00-1.46-2.32c-.94-.31-.94-.31-5.46-.35h-7.91c-5.29 0-7.48-.3-9.33-1.25-2.06-1.07-3-3.35-3-7.26 0-5.16 1.46-7.35 5.59-8.34 2.32-.61 5.67-.82 12-.82 10.06 0 12.39.26 14.45 1.59s2.62 3.1 2.62 7.4h-8.57c0-2.5-.86-2.84-6.49-2.84-2.8 0-6.54.08-7.91.17-2.33.17-3.1.77-3.1 2.41a2.16 2.16 0 001.85 2.28 13.86 13.86 0 003.52.21h8.13c.77 0 4.64.13 6.11.22 5.46.25 7.61 2.66 7.61 8.42 0 5.29-1.55 7.62-5.76 8.52-2.15.47-6.41.73-12.65.73-9.93 0-12.12-.22-14.66-1.51-1.76-.86-2.66-3-2.66-6.45v-1.41zM191.44 43.94h-12.77v-7.1h34.27v7.1h-12.77v21.58h-8.73zM254.99 36.84v6.5h-23.18v4.94h21.85v5.68h-21.85v5.06h23.48v6.5h-32.08V36.84zM266.47 36.84h24.73c5.07 0 7.31.43 8.94 1.81s2.45 3.78 2.45 7.65c0 5.34-1.29 7.44-4.94 8.26 3.56.6 4.64 2.11 4.55 6.45v4.51h-8.86v-3.56c0-3.1-.9-3.75-4.81-3.66h-13.37v7.22h-8.69zm22.29 14.45c4.21 0 5-.51 5-3.35 0-1.85-.17-2.63-.73-3.23s-1.38-.81-4-.81h-13.87v7.39zM365.88 54.73c0 4.17-.17 5.59-.77 6.88-1.12 2.45-3.44 3.61-7.91 3.91-1.76.18-5.2.22-10.92.22-8.26 0-10.92-.39-13.25-1.89-2.83-1.83-3.65-4.83-3.65-13.33 0-7.57.86-10.28 3.87-12 2.58-1.5 5.33-1.89 13.37-1.89 10.71 0 13 .21 15.48 1.42s3.4 3.7 3.4 7.91v1h-8.34c-.18-3.14-.82-3.4-8.39-3.4-7.14 0-8.43.17-9.5 1.12s-1.25 2.1-1.25 6.75c0 6.88.65 7.39 9 7.39 6.49 0 7.44 0 8.64-.56s1.72-1.41 1.72-3.48zM377.28 36.84h8.73v10.62h19.87V36.84h8.72v28.68h-8.72v-11h-19.87v11h-8.73zM426.76 36.84h8.73v28.68h-8.73zM479.49 36.84v6.5h-23.18v4.94h21.85v5.68h-21.85v5.06h23.45v6.5h-32V36.84zM491.06 36.84h30.44v6.5h-21.74v5.68h20.64v6.49h-20.64v10h-8.7zM540.08 53.44h-8.56v-8h8.56zm0 12.08h-8.56v-8h8.56zM52.28 93.18v18.71c0 4.73-.43 6.49-2 8.12s-4.08 2.15-10.83 2.15c-7.57 0-10.45-.51-12.26-2.15-1.55-1.46-1.85-2.7-1.85-7.56v-1.12h3.36v2c0 3.4.51 4.51 2.36 5.12 1.29.47 4.13.68 8.17.68 3.78 0 6.36-.3 7.57-.9 1.59-.81 2.06-2.45 2.06-7.44V93.18zM99.32 95.51c1.85 1.93 2.28 4.17 2.28 12s-.43 10.11-2.28 12c-2.19 2.28-4.38 2.62-16.16 2.62s-14-.34-16.17-2.62c-1.85-1.93-2.28-4.17-2.28-12s.43-10.14 2.28-12c2.19-2.28 4.38-2.63 16.34-2.63 11.56 0 13.8.39 15.99 2.63zm-29.56 2.15c-1.2 1.24-1.5 3.31-1.5 9.88s.3 8.6 1.5 9.85c1.46 1.55 3.27 1.76 13.38 1.76s11.91-.25 13.37-1.76c1.2-1.25 1.5-3.31 1.5-9.85s-.3-8.64-1.5-9.88c-1.33-1.47-3.74-1.77-13.2-1.77-9.87 0-12.15.3-13.55 1.77zM114.37 93.18h3.44v12.56h26.88V93.18h3.44v28.68h-3.44v-13.41h-26.88v13.41h-3.44zM161.76 93.18h5.55l27.08 26.23V93.18h3.44v28.68h-5.54L165.2 95.63v26.23h-3.44zM237.05 102.51l11.87-9.33h4.6v28.68h-3.31V95.63l-11.14 9.12zM281.64 102.51l11.87-9.33h4.6v28.68h-3.35V95.63l-11.14 9.12zM353.24 93.18v4.17l-21.48 24.51h-4.5l22.58-25.75H320.9v-2.93z"/>
+			</svg>
+		</a>
+
+</main>
+
+    	<% for (var chunk in htmlWebpackPlugin.files.chunks) { %>
+	<script src="<%= htmlWebpackPlugin.files.chunks[chunk].entry %>"></script>
+	<% } %>
+
   </body>
 </html>

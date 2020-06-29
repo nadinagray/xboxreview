@@ -2,5 +2,11 @@ html,
 body {
     height: 100%;
     font-family: Menlo, Consolas, Roboto Mono  Ubuntu Monospace, Noto Mono, Oxygen Mono, Liberation Mono, monospace;
+}
 
+body {
+    margin: 0;
+    overflow: hidden;
+    overscroll-behavior-y: none;
+    background: rgb(0,178,162);
 }
