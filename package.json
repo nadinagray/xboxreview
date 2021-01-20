@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "gsap": "^2.0.2",
+    "gsap": "^3.6.0",
     "three": "^0.118.1"
   },
   "devDependencies": {
