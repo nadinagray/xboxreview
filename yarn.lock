@@ -8745,10 +8745,10 @@ three.meshline@^1.2.0:
   resolved "https://registry.yarnpkg.com/three.meshline/-/three.meshline-1.2.0.tgz#89a0c9d67d8062e5649dc0ac9aa16f14e7c199b5"
   integrity sha512-E7s9xwgjUhQWIvXBMIdCOIvpT1qV9UlntzaaJTWzJvYtvI2ZvVsX8EM8FxoiG5aptXuKbp5osnvcJCCkYOjmBA==
 
-three@^0.118.1:
-  version "0.118.1"
-  resolved "https://registry.yarnpkg.com/three/-/three-0.118.1.tgz#c038be33250de15e80e78b9751dbca85964e9307"
-  integrity sha512-NYziIWAJg1ON5YJosT4eWCe/kmEOXC9pMJjqwsVtfIMrlP5qqassS0y99zs9INJUYtmxLsrNCdi9FzUWBKE6XQ==
+three@^0.125.0:
+  version "0.125.0"
+  resolved "https://registry.yarnpkg.com/three/-/three-0.125.0.tgz#19e922b9dc51ad0b706893aeee888de68e99850a"
+  integrity sha512-qL36qUGsPQ/Ofo/RZdXwHwM7A8wzUSAIyawtjIebJSPvounUQeneSqxI0aBY2iwKpseGy+RUtj3C5f/z4poyXw==
 
 three@^0.92.0:
   version "0.92.0"
